@@ -13,6 +13,11 @@ packages:
   gitUrl: https://bitbucket.org/testartiibm
   gitUsername: artikhare
   gitBranch: master
+- name: substractpackage
+  gitServerName: RAHS_GL_IBM_Account_SD
+  gitUrl: https://gitlab.com/ArtiKhareGitlabnew
+  gitUsername: rahul-singh-IBM-68
+  gitBranch: master
 services:
 - serviceName: project.serengeti1906_nonadmin_github.integrations:nonadminfs
   packages:
