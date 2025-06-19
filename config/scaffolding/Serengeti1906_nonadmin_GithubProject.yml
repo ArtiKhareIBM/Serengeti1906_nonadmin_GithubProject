@@ -14,10 +14,9 @@ packages:
   gitUsername: artikhare
   gitBranch: master
 - name: substractpackage
-  version: "1.0"
-  gitServerName: RAHS_GL_IBM_Account_SD
+  gitServerName: src_shared_GitLabCtrl_Arti
   gitUrl: https://gitlab.com/ArtiKhareGitlabnew
-  gitUsername: rahul-singh-IBM-68
+  gitUsername: ArtiKhareGitlabnew
   gitBranch: master
 services:
 - serviceName: project.serengeti1906_nonadmin_github.integrations:nonadmin_gitlab_fs
