@@ -14,16 +14,35 @@ packages:
   gitUsername: artikhare
   gitBranch: master
 - name: substractpackage
+  version: "1.0"
   gitServerName: RAHS_GL_IBM_Account_SD
   gitUrl: https://gitlab.com/ArtiKhareGitlabnew
   gitUsername: rahul-singh-IBM-68
   gitBranch: master
 services:
+- serviceName: project.serengeti1906_nonadmin_github.integrations:nonadmin_gitlab_fs
+  packages:
+  - name: Serengeti1906_nonadmin_GithubProject
+    version: "1.0"
+  - name: upperfspackage
+    version: "1.0"
+  - name: substractpackage
+    version: "1.0"
+- serviceName: SubstractPackage:substractFS
+  packages:
+  - name: substractpackage
+    version: "1.0"
+- serviceName: pub.math:subtractInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2068
 - serviceName: project.serengeti1906_nonadmin_github.integrations:nonadminfs
   packages:
   - name: Serengeti1906_nonadmin_GithubProject
     version: "1.0"
   - name: upperfspackage
+    version: "1.0"
+  - name: substractpackage
     version: "1.0"
 - serviceName: UpperFSPackage:upperfs
   packages:
